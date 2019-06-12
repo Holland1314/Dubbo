@@ -34,7 +34,7 @@ public class YoungClient {
         referenceConfig.setInterface(UserService.class);
 //        referenceConfig.setRegistry(new RegistryConfig(RegistryConfig.NO_AVAILABLE));
         referenceConfig.setRegistry(new RegistryConfig("multicast://224.1.2.3:11111"));
-//        referenceConfig.setUrl(remoteUrl);
+        referenceConfig.setUrl(remoteUrl);
         referenceConfig.setApplication(new ApplicationConfig("young-app"));
 //        referenceConfig.setLoadbalance("");
         return referenceConfig.get();
