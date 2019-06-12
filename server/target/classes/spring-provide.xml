@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:dubbo="http://dubbo.apache.org/schema/dubbo"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context
+       http://www.springframework.org/schema/context/spring-context-4.3.xsd
+       http://dubbo.apache.org/schema/dubbo http://dubbo.apache.org/schema/dubbo/dubbo.xsd">
+    <!-- 应用配置  ApplicationConfig -->
+<!--    <dubbo:application name="simple-server"/>
+    &lt;!&ndash;register 默认等于true 把服务暴露到注册中心去&ndash;&gt;
+    <dubbo:registry address="zookeeper://192.168.0.147:2181"/>
+    &lt;!&ndash; 服务配置  ServiceConfig&ndash;&gt;
+    &lt;!&ndash;  service默认值 protocol默认值&ndash;&gt;
+    <dubbo:provider protocol="dubbo" port="-1" timeout="6000"/>
+
+    <dubbo:service interface="tuling.dubbo.server.UserService"
+                   ref="userService" timeout="4000">
+        <dubbo:method name="getUser" timeout="2000"/>
+    </dubbo:service>
+    <bean id="userService" class="tuling.dubbo.server.impl.UserServiceImpl"></bean>-->
+
+</beans>
